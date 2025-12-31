@@ -10,7 +10,8 @@ const textSendBtn = document.getElementById('text-send');
 const recordingIndicator = document.getElementById('recording-indicator');
 
 // WebSocket connection
-const ws = new WebSocket("ws://" + window.location.host + "/ws");
+const ws = new WebSocket("ws://localhost:8001/ws");
+
 
 let isListening = false;
 let reconnectAttempts = 0;

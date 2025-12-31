@@ -12,3 +12,4 @@ fastapi
 uvicorn
 pygame
 google-cloud-speech
+websocket
